@@ -15,6 +15,10 @@ Get started at http://fontawesome.io!
 - Font-Awesome-SVG-PNG is licensed under the MIT license
 
 ## How to use?
+> npm intall -g font-awesome-svg-png
+
+> font-awesome-svg-png --color yellow --sizes 24,32
+
 You may use already generated icons in `white` and `black` directories. You can also generate your own set:
 
 Note: you need to have a command `rsvg-convert` available.
@@ -33,7 +37,7 @@ PNG creation depends on `rsvg-convert` command being in the path.
 You can skip PNG creation with `--no-png`.
 
 ### Windows support
-Everything should work once you have `rsvg-convert.exe`. You may get it from https://osspack32.googlecode.com/files/rsvg-convert.exe and move to `%PATH%`.
+Everything should work once you have `rsvg-convert.exe`. You may get it from ``./lib/rsvg-convert.exe` and move to `%PATH%`.
 
 ### Mac OS X support
 ```
